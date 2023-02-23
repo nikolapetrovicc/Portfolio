@@ -64,7 +64,7 @@ export const SectionName = styled.h4`
   line-height: ${(props) => (props.main ? "72px" : "56px")};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(#ffcc01, #e3b500);
+  background: linear-gradient(270deg, #13adc7 0%, #945dd6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -231,7 +231,7 @@ export const ButtonBack = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
-    height: 32px;
+    height: 40px;
     font-size: 14px;
     margin-bottom: ${({ alt }) => (alt ? "0" : "32px")};
   }
