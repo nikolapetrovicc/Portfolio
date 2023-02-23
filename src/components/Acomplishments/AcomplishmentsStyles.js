@@ -2,13 +2,10 @@ import styled from "styled-components";
 
 export const Boxes = styled.div`
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
   margin: 24px 0 40px;
-  align-items: center;
-  justify-content: center;
 
   @media ${(props) => props.theme.breakpoints.md} {
     gap: 16px;
@@ -28,6 +25,9 @@ export const Boxes = styled.div`
 
 export const Box = styled.div`
   /* background: #212D45; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 12px;
   height: 144px;
   padding: 24px;

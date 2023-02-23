@@ -6,17 +6,16 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
-import muiIcon from "../../assets/svg/muiIcon";
 
 const data = [
   { text: "React.js" },
   { text: "Node.js" },
   { text: "Redux" },
-  { text: "Redux-Toolkit" },
   { text: "Typescript" },
   { text: "JavaScript" },
   { text: "MUI" },
   { text: "MongoDB" },
+  { text: "Express" },
   { text: "PostgreSQL" },
   { text: "Git" },
   { text: "Storybook" },
